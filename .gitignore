@@ -11,3 +11,19 @@ pnpm-lock.yaml
 .DS_Store
 .claude/
 scheduled_tasks.lock
+
+# Publishing policy — private methodology & scoring files
+**/METHODOLOGY.md
+**/REVISED_METHODOLOGY.md
+**/METHODOLOGY_NOTES.md
+**/METHODOLOGY_ADDENDUM_*.md
+**/BUILD_REPORT.md
+**/SCORE_REPORT.md
+**/SCORING_REPORT.md
+**/RED_TEAM_REPORT.md
+**/SCORE_RECONCILIATION.md
+**/TRIAL_PROTOCOL.md
+**/C5_AUDIT.md
+SDD_METHODOLOGY_ANALYSIS_REPORT.md
+verify-layer.sh
+layers.json
