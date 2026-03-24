@@ -27,3 +27,4 @@ scheduled_tasks.lock
 CED_METHODOLOGY_ANALYSIS_REPORT.md
 verify-layer.sh
 layers.json
+.git-backup-pre-scrub/
