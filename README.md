@@ -1,10 +1,10 @@
-# SDD Trials 1-10: Specification-Driven Development
+# CED Trials 1-10: Specification-Driven Development
 
-Complete artifacts from 10 iterative trials of **Specification-Driven Development (SDD)** — a self-correcting methodology for AI-augmented software engineering. Each trial builds 3 enterprise applications, scores the results, identifies failure modes, and revises the methodology for the next trial.
+Complete artifacts from 10 iterative trials of **Specification-Driven Development (CED)** — a self-correcting methodology for AI-augmented software engineering. Each trial builds 3 enterprise applications, scores the results, identifies failure modes, and revises the methodology for the next trial.
 
 ## The Central Finding
 
-> **No version of SDD achieves both breadth and depth.**
+> **No version of CED achieves both breadth and depth.**
 
 - **v1.0 (Trial 1)** achieved maximum **breadth**: full-stack monorepos (NestJS + Next.js 15 + shadcn/ui), 7-document spec suites, Turborepo, Docker, CI/CD. But audited quality was 6.5-8.0 — RLS was claimed everywhere and implemented nowhere, encryption was plaintext stored as bytes, CI stages ran `echo` commands.
 
@@ -166,7 +166,7 @@ Key innovations accumulated across versions:
 
 ```
 trials/
-├── SDD_METHODOLOGY_ANALYSIS_REPORT.md    # Master cross-trial analysis (49 KB)
+├── CED_METHODOLOGY_ANALYSIS_REPORT.md    # Master cross-trial analysis (49 KB)
 ├── trial1/                                # v1.0 → v2.0 (max breadth)
 │   ├── METHODOLOGY.md                     # Input methodology
 │   ├── REVISED_METHODOLOGY.md             # Output methodology
@@ -236,7 +236,7 @@ Each layer runs trials until convergence (0 new failure modes), then the next la
 
 All 10 trials were conducted using [Claude Code](https://claude.ai/code) with Claude Opus as the primary model. The methodology document is the only input — no manual coding, no human-written source code. Each trial's source code was generated entirely by the AI agent following the methodology's phased process.
 
-Session logs (1,584 subagent invocations across 206 sessions) are available in the companion [SDD Dashboard](https://github.com/stephendeslate/sdd-dashboard) project, which provides real-time visualization of trial data, convergence patterns, and agent activity.
+Session logs (1,584 subagent invocations across 206 sessions) are available in the companion [CED Dashboard](https://github.com/stephendeslate/ced-dashboard) project, which provides real-time visualization of trial data, convergence patterns, and agent activity.
 
 ## License
 

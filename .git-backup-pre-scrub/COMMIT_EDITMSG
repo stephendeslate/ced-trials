@@ -1,0 +1,13 @@
+Enforce publishing policy — untrack private methodology, scoring, and analysis files
+
+Removes from git tracking (files remain on disk):
+- 10 METHODOLOGY.md + 10 REVISED_METHODOLOGY.md (full methodology text)
+- 12 BUILD_REPORT.md (trial build reports)
+- 2 SCORING_REPORT.md (per-dimension score breakdowns)
+- 6 C5_AUDIT.md (verification audit results)
+- 1 SDD_METHODOLOGY_ANALYSIS_REPORT.md (complete FM registry + methodology evolution)
+- 1 METHODOLOGY_NOTES.md
+
+Updated .gitignore to prevent future tracking of private files per PUBLISHING_POLICY.md.
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>

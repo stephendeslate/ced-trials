@@ -24,6 +24,6 @@ scheduled_tasks.lock
 **/SCORE_RECONCILIATION.md
 **/TRIAL_PROTOCOL.md
 **/C5_AUDIT.md
-SDD_METHODOLOGY_ANALYSIS_REPORT.md
+CED_METHODOLOGY_ANALYSIS_REPORT.md
 verify-layer.sh
 layers.json
